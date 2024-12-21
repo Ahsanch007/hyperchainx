@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hyperchainx</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
+
+</head>
+
+<body>
+    <div class="" id="root">
+        <div class="app-cursor flex items-center justify-center ">
+            <div class="bg-hyper-green h-2 w-2 rounded-full"></div>
+        </div>
+        <header
+            class="flex items-center bg-hyper-dark/80 backdrop-blur-lg  py-2 lg:px-8 px-5 sticky top-0 z-40 w-full shadow-lg ">
+            <div class="flex-1"><img src="./assets/images/logo.dea08e9f.png" alt="Hyperchain X Logo"
+                    class="lg:w-48 w-40 cursor-pointer"></div>
+            <div class="flex items-center lg:divide-x-2 divide-hyper-dark-200 ">
+                <nav class="lg:block hidden">
+                    <ul class="flex items-center space-x-6 text-hyper-light uppercase font-bold mr-10">
+                        <li><a href="#home" class="nav-item">Home</a></li>
+                        <li><a href="#nft" class="nav-item">nft</a></li>
+                        <li><a href="#features" class="nav-item">features</a></li>
+                        <li><a href="#game" class="nav-item">gaming</a></li>
+                        <li><a href="#tokenomics" class="nav-item">tokenomics</a></li>
+                        <li><a href="#roadmap" class="nav-item">roadmap</a></li>
+                        <li><a href="#team" class="nav-item">Team</a></li>
+                        <li><a href="https://hyperchainx.gitbook.io/whitepaper/" class="nav-item">whitepaper</a></li>
+                        <li><a href="https://medium.com/@Hyperchainx" class="nav-item">News</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center">
+                    <div class="ReactFlagsSelect-module_flagsSelect__2pfa2 px-4 py-2  md:block hidden"
+                        data-testid="rfs">
+                        <button id="rfs-btn" type="button" class="ReactFlagsSelect-module_selectBtn__19wW7"
+                            aria-labelledby="rfs-btn" aria-haspopup="listbox" aria-expanded="false"
+                            data-testid="rfs-btn" style="font-size: 16px;"><span
+                                class="ReactFlagsSelect-module_selectValue__152eS"><span
+                                    class="ReactFlagsSelect-module_selectFlag__2q5gC"
+                                    data-testid="rfs-selected-flag"><svg width="1em" height="1em" viewBox="0 0 512 336"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g fill="none">
+                                            <path
+                                                d="M503.172 335.725H8.828A8.829 8.829 0 010 326.897V9.104A8.829 8.829 0 018.828.276h494.345a8.829 8.829 0 018.828 8.828v317.793a8.83 8.83 0 01-8.829 8.828z"
+                                                fill="#41479B"></path>
+                                            <path
+                                                d="M512 9.104a8.829 8.829 0 00-8.828-8.828h-39.495l-163.54 107.147V.276h-88.276v107.147L48.322.276H8.828A8.829 8.829 0 000 9.104v22.831l140.309 91.927H0v88.276h140.309L0 304.066v22.831a8.829 8.829 0 008.828 8.828h39.495l163.54-107.147v107.147h88.276V228.578l163.54 107.147h39.495a8.829 8.829 0 008.828-8.828v-22.831l-140.309-91.927H512v-88.276H371.691L512 31.935V9.104z"
+                                                fill="#F5F5F5"></path>
+                                            <g fill="#FF4B55">
+                                                <path
+                                                    d="M512 141.518H282.483V.276h-52.966v141.242H0v52.965h229.517v141.242h52.966V194.483H512z">
+                                                </path>
+                                                <path
+                                                    d="M178.948 212.138L.25 328.135c.625 4.263 4.14 7.59 8.577 7.59h12.159l190.39-123.587-32.428.001v-.001zm167.44 0H313.96l190.113 123.404c4.431-.472 7.928-4.09 7.928-8.646v-7.258l-165.613-107.5zM0 18.849l161.779 105.014h32.428L5.143 1.137C2.123 2.54 0 5.555 0 9.104v9.745zm332.566 105.014L511.693 7.586c-.744-4.122-4.184-7.309-8.521-7.309h-12.647L300.138 123.863h32.428z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg></span><span
+                                    class="ReactFlagsSelect-module_label__27pw9">EN</span></span></button>
+                        <ul tabindex="-1" role="listbox"
+                            class=" hidden ReactFlagsSelect-module_selectOptions__3LNBJ ReactFlagsSelect-module_fullWidthOptions__1XeR6 hidden"
+                            style="font-size: 16px;">
+                            <li id="rfs-GB" role="option" tabindex="0"
+                                class="ReactFlagsSelect-module_selectOption__3pcgW ReactFlagsSelect-module_selectOptionWithlabel__2GpmM">
+                                <span class="ReactFlagsSelect-module_selectOptionValue__vS99-"><span
+                                        class="ReactFlagsSelect-module_selectFlag__2q5gC"><svg width="1em" height="1em"
+                                            viewBox="0 0 512 336" xmlns="http://www.w3.org/2000/svg">
+                                            <g fill="none">
+                                                <path
+                                                    d="M503.172 335.725H8.828A8.829 8.829 0 010 326.897V9.104A8.829 8.829 0 018.828.276h494.345a8.829 8.829 0 018.828 8.828v317.793a8.83 8.83 0 01-8.829 8.828z"
+                                                    fill="#41479B"></path>
+                                                <path
+                                                    d="M512 9.104a8.829 8.829 0 00-8.828-8.828h-39.495l-163.54 107.147V.276h-88.276v107.147L48.322.276H8.828A8.829 8.829 0 000 9.104v22.831l140.309 91.927H0v88.276h140.309L0 304.066v22.831a8.829 8.829 0 008.828 8.828h39.495l163.54-107.147v107.147h88.276V228.578l163.54 107.147h39.495a8.829 8.829 0 008.828-8.828v-22.831l-140.309-91.927H512v-88.276H371.691L512 31.935V9.104z"
+                                                    fill="#F5F5F5"></path>
+                                                <g fill="#FF4B55">
+                                                    <path
+                                                        d="M512 141.518H282.483V.276h-52.966v141.242H0v52.965h229.517v141.242h52.966V194.483H512z">
+                                                    </path>
+                                                    <path
+                                                        d="M178.948 212.138L.25 328.135c.625 4.263 4.14 7.59 8.577 7.59h12.159l190.39-123.587-32.428.001v-.001zm167.44 0H313.96l190.113 123.404c4.431-.472 7.928-4.09 7.928-8.646v-7.258l-165.613-107.5zM0 18.849l161.779 105.014h32.428L5.143 1.137C2.123 2.54 0 5.555 0 9.104v9.745zm332.566 105.014L511.693 7.586c-.744-4.122-4.184-7.309-8.521-7.309h-12.647L300.138 123.863h32.428z">
+                                                    </path>
+                                                </g>
+                                            </g>
+                                        </svg></span><span class="ReactFlagsSelect-module_label__27pw9">EN</span></span>
+                            </li>
+                            <li id="rfs-ES" role="option" tabindex="0"
+                                class="ReactFlagsSelect-module_selectOption__3pcgW ReactFlagsSelect-module_selectOptionWithlabel__2GpmM">
+                                <span class="ReactFlagsSelect-module_selectOptionValue__vS99-"><span
+                                        class="ReactFlagsSelect-module_selectFlag__2q5gC"><svg width="1em" height="1em"
+                                            viewBox="0 0 512 336" xmlns="http://www.w3.org/2000/svg">
+                                            <g fill="none">
+                                                <path
+                                                    d="M8.828 335.724h494.345a8.829 8.829 0 008.828-8.828V9.103a8.829 8.829 0 00-8.828-8.828H8.828A8.83 8.83 0 000 9.103v317.793a8.828 8.828 0 008.828 8.828z"
+                                                    fill="#C8414B"></path>
+                                                <path fill="#FFD250" d="M0 70.897h512v194.207H0z"></path>
+                                                <path
+                                                    d="M216.276 168l7.485-33.681c.69-3.102-1.671-6.044-4.849-6.044h-5.272c-3.177 0-5.537 2.942-4.849 6.044L216.276 168z"
+                                                    fill="#C8414B"></path>
+                                                <path fill="#F5F5F5" d="M207.448 150.345h17.655v75.034h-17.655z"></path>
+                                                <path fill="#FAB446" d="M203.034 141.517h26.483v8.828h-26.483z"></path>
+                                                <path
+                                                    d="M185.379 168h44.138v8.828h-44.138zm44.138 35.31l-26.483-8.827v-8.828l26.483 8.828zM83.862 168l7.485-33.681c.69-3.102-1.671-6.044-4.849-6.044h-5.272c-3.177 0-5.537 2.942-4.849 6.044L83.862 168z"
+                                                    fill="#C8414B"></path>
+                                                <path
+                                                    d="M114.759 141.517a8.829 8.829 0 00-8.828 8.828v57.379c0 10.725 10.01 30.897 44.138 30.897s44.138-20.171 44.138-30.897v-57.379a8.829 8.829 0 00-8.828-8.828h-70.62z"
+                                                    fill="#F5F5F5"></path>
+                                                <path
+                                                    d="M150.069 185.655h-44.138v-35.31a8.829 8.829 0 018.828-8.828h35.31v44.138zm0 0h44.138v22.069c0 12.189-9.88 22.069-22.069 22.069-12.189 0-22.069-9.88-22.069-22.069v-22.069z"
+                                                    fill="#C8414B"></path>
+                                                <path
+                                                    d="M105.931 185.655h44.138v22.069c0 12.189-9.88 22.069-22.069 22.069-12.189 0-22.069-9.88-22.069-22.069v-22.069z"
+                                                    fill="#FAB446"></path>
+                                                <path
+                                                    d="M141.241 225.28v-39.625h-8.828v43.693c3.284-.666 6.251-2.12 8.828-4.068zm-17.655 4.068v-43.693h-8.828v39.625c2.578 1.948 5.545 3.402 8.828 4.068z"
+                                                    fill="#C8414B"></path>
+                                                <path fill="#FFB441" d="M114.759 168h26.483v8.828h-26.483z"></path>
+                                                <g fill="#FAB446">
+                                                    <path d="M114.759 150.345h26.483v8.828h-26.483z"></path>
+                                                    <path d="M119.172 155.586h17.655v15.992h-17.655z"></path>
+                                                </g>
+                                                <path fill="#F5F5F5" d="M75.034 150.345h17.655v75.034H75.034z"></path>
+                                                <path
+                                                    d="M70.621 220.966h26.483v8.828H70.621zm0-79.449h26.483v8.828H70.621z"
+                                                    fill="#FAB446"></path>
+                                                <path fill="#5064AA" d="M66.207 229.793h35.31v8.828h-35.31z"></path>
+                                                <path fill="#FAB446" d="M207.448 220.966h26.483v8.828h-26.483z"></path>
+                                                <path fill="#5064AA" d="M198.621 229.793h35.31v8.828h-35.31z"></path>
+                                                <path fill="#FAB446" d="M123.586 132.69h52.966v8.828h-52.966z"></path>
+                                                <path fill="#FFB441" d="M145.655 106.207h8.828v26.483h-8.828z"></path>
+                                                <g fill="#F5F5F5">
+                                                    <path
+                                                        d="M141.241 119.448c-7.302 0-13.241-5.94-13.241-13.241 0-7.302 5.94-13.241 13.241-13.241 7.302 0 13.241 5.94 13.241 13.241.001 7.301-5.939 13.241-13.241 13.241zm0-17.655a4.417 4.417 0 00-4.414 4.414 4.417 4.417 0 004.414 4.414 4.416 4.416 0 004.414-4.414 4.417 4.417 0 00-4.414-4.414z">
+                                                    </path>
+                                                    <path
+                                                        d="M158.897 119.448c-7.302 0-13.241-5.94-13.241-13.241 0-7.302 5.94-13.241 13.241-13.241 7.302 0 13.241 5.94 13.241 13.241 0 7.301-5.94 13.241-13.241 13.241zm0-17.655a4.417 4.417 0 00-4.414 4.414 4.417 4.417 0 004.414 4.414 4.417 4.417 0 004.414-4.414 4.418 4.418 0 00-4.414-4.414z">
+                                                    </path>
+                                                    <path
+                                                        d="M176.552 128.276c-7.302 0-13.241-5.94-13.241-13.241 0-7.302 5.94-13.241 13.241-13.241 7.302 0 13.241 5.94 13.241 13.241 0 7.301-5.94 13.241-13.241 13.241zm0-17.655a4.417 4.417 0 00-4.414 4.414 4.417 4.417 0 004.414 4.414 4.417 4.417 0 004.414-4.414 4.417 4.417 0 00-4.414-4.414zm-52.966 17.655c-7.302 0-13.241-5.94-13.241-13.241 0-7.302 5.94-13.241 13.241-13.241 7.302 0 13.241 5.94 13.241 13.241.001 7.301-5.939 13.241-13.241 13.241zm0-17.655a4.417 4.417 0 00-4.414 4.414 4.417 4.417 0 004.414 4.414 4.417 4.417 0 004.414-4.415 4.416 4.416 0 00-4.414-4.413z">
+                                                    </path>
+                                                </g>
+                                                <path
+                                                    d="M176.552 203.31v4.414a4.419 4.419 0 01-4.414 4.414 4.419 4.419 0 01-4.414-4.414v-4.414h8.828zm8.827-8.827h-26.483v13.241c0 7.302 5.94 13.241 13.241 13.241 7.302 0 13.241-5.94 13.241-13.241v-13.241h.001z"
+                                                    fill="#FAB446"></path>
+                                                <path
+                                                    d="M172.138 176.828A8.829 8.829 0 01163.31 168v-8.828a8.829 8.829 0 0117.656 0V168a8.829 8.829 0 01-8.828 8.828z"
+                                                    fill="#FFA0D2"></path>
+                                                <circle fill="#5064AA" cx="150.069" cy="185.655" r="13.241"></circle>
+                                                <path fill="#FAB446" d="M145.655 88.552h8.828v26.483h-8.828z"></path>
+                                                <path
+                                                    d="M123.586 132.69l-8.828-8.828 5.171-5.171a42.625 42.625 0 0160.28 0l5.171 5.171-8.828 8.828h-52.966z"
+                                                    fill="#C8414B"></path>
+                                                <g transform="translate(128 119)" fill="#FFD250">
+                                                    <circle cx="22.069" cy="4.862" r="4.414"></circle>
+                                                    <circle cx="4.414" cy="4.862" r="4.414"></circle>
+                                                    <circle cx="39.724" cy="4.862" r="4.414"></circle>
+                                                </g>
+                                                <path
+                                                    d="M70.621 168h44.138v8.828H70.621zm0 35.31l26.482-8.827v-8.828l-26.482 8.828z"
+                                                    fill="#C8414B"></path>
+                                            </g>
+                                        </svg></span><span class="ReactFlagsSelect-module_label__27pw9">ES</span></span>
+                            </li>
+                            <li id="rfs-RU" role="option" tabindex="0"
+                                class="ReactFlagsSelect-module_selectOption__3pcgW ReactFlagsSelect-module_selectOptionWithlabel__2GpmM">
+                                <span class="ReactFlagsSelect-module_selectOptionValue__vS99-"><span
+                                        class="ReactFlagsSelect-module_selectFlag__2q5gC"><svg width="1em" height="1em"
+                                            viewBox="0 0 512 336" xmlns="http://www.w3.org/2000/svg">
+                                            <g fill="none">
+                                                <path
+                                                    d="M512.001 112.092H0V9.103A8.829 8.829 0 018.828.275h494.345a8.829 8.829 0 018.828 8.828v102.989z"
+                                                    fill="#F5F5F5"></path>
+                                                <path
+                                                    d="M503.172 335.724H8.828A8.829 8.829 0 010 326.896V223.908h512v102.988a8.828 8.828 0 01-8.828 8.828z"
+                                                    fill="#FF4B55"></path>
+                                                <path fill="#41479B" d="M0 112.088h512V223.9H0z"></path>
+                                            </g>
+                                        </svg></span><span class="ReactFlagsSelect-module_label__27pw9">RU</span></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:hidden block ml-5 z-50">
+                <div class="hamburger-react" role="button" tabindex="0"
+                    style="cursor: pointer; height: 48px; position: relative; transition: 0.4s cubic-bezier(0, 0, 0, 1); user-select: none; width: 48px; outline: none; transform: none;">
+                    <div
+                        style="background: rgb(255, 255, 255); height: 2px; left: 12px; position: absolute; width: 24px; top: 16px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;">
+                    </div>
+                    <div
+                        style="background: rgb(255, 255, 255); height: 2px; left: 12px; position: absolute; width: 24px; top: 23px; transition: 0.4s cubic-bezier(0, 0, 0, 1); opacity: 1;">
+                    </div>
+                    <div
+                        style="background: rgb(255, 255, 255); height: 2px; left: 12px; position: absolute; width: 24px; top: 30px; transition: 0.4s cubic-bezier(0, 0, 0, 1); transform: none;">
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <div class="modal hidden min-h-[100vh]  overflow-y-auto flex flex-col bg-hyper-dark bg-opacity-100">
+            <div class="flex flex-col w-1/3 mx-auto py-3 my-3 border-b">
+                <div class="ReactFlagsSelect-module_flagsSelect__2pfa2" data-testid="rfs"><button id="rfs-btn"
+                        type="button" class="ReactFlagsSelect-module_selectBtn__19wW7" aria-labelledby="rfs-btn"
+                        aria-haspopup="listbox" aria-expanded="false" data-testid="rfs-btn"
+                        style="font-size: 16px;"><span class="ReactFlagsSelect-module_selectValue__152eS"><span
+                                class="ReactFlagsSelect-module_selectFlag__2q5gC" data-testid="rfs-selected-flag"><svg
+                                    width="1em" height="1em" viewBox="0 0 512 336" xmlns="http://www.w3.org/2000/svg">
+                                    <g fill="none">
+                                        <path
+                                            d="M503.172 335.725H8.828A8.829 8.829 0 010 326.897V9.104A8.829 8.829 0 018.828.276h494.345a8.829 8.829 0 018.828 8.828v317.793a8.83 8.83 0 01-8.829 8.828z"
+                                            fill="#41479B"></path>
+                                        <path
+                                            d="M512 9.104a8.829 8.829 0 00-8.828-8.828h-39.495l-163.54 107.147V.276h-88.276v107.147L48.322.276H8.828A8.829 8.829 0 000 9.104v22.831l140.309 91.927H0v88.276h140.309L0 304.066v22.831a8.829 8.829 0 008.828 8.828h39.495l163.54-107.147v107.147h88.276V228.578l163.54 107.147h39.495a8.829 8.829 0 008.828-8.828v-22.831l-140.309-91.927H512v-88.276H371.691L512 31.935V9.104z"
+                                            fill="#F5F5F5"></path>
+                                        <g fill="#FF4B55">
+                                            <path
+                                                d="M512 141.518H282.483V.276h-52.966v141.242H0v52.965h229.517v141.242h52.966V194.483H512z">
+                                            </path>
+                                            <path
+                                                d="M178.948 212.138L.25 328.135c.625 4.263 4.14 7.59 8.577 7.59h12.159l190.39-123.587-32.428.001v-.001zm167.44 0H313.96l190.113 123.404c4.431-.472 7.928-4.09 7.928-8.646v-7.258l-165.613-107.5zM0 18.849l161.779 105.014h32.428L5.143 1.137C2.123 2.54 0 5.555 0 9.104v9.745zm332.566 105.014L511.693 7.586c-.744-4.122-4.184-7.309-8.521-7.309h-12.647L300.138 123.863h32.428z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg></span><span
+                                class="ReactFlagsSelect-module_label__27pw9">EN</span></span></button></div>
+            </div>
+            <ul
+                class="uppercase font-bold justify-center text-center text-2xl text-hyper-light flex flex-col  space-y-5">
+                <li><a href="#home" class="hover:text-hyper-green transition-all ease-in-out duration-150">Home</a>
+                </li>
+                <li><a href="#nft" class="hover:text-hyper-green transition-all ease-in-out duration-150">nft</a>
+                </li>
+                <li><a href="#features"
+                        class="hover:text-hyper-green transition-all ease-in-out duration-150">features</a></li>
+                <li><a href="#game" class="hover:text-hyper-green transition-all ease-in-out duration-150">gaming</a>
+                </li>
+                <li><a href="#tokenomics"
+                        class="hover:text-hyper-green transition-all ease-in-out duration-150">tokenomics</a></li>
+                <li><a href="#roadmap"
+                        class="hover:text-hyper-green transition-all ease-in-out duration-150">roadmap</a></li>
+                <li><a href="#team" class="hover:text-hyper-green transition-all ease-in-out duration-150">Team</a>
+                </li>
+                <li><a href="https://hyperchainx.gitbook.io/whitepaper/"
+                        class="hover:text-hyper-green transition-all ease-in-out duration-150">whitepaper</a></li>
+                <li><a href="https://medium.com/@Hyperchainx"
+                        class="hover:text-hyper-green transition-all ease-in-out duration-150">News</a></li>
+            </ul>
+        </div>
+        <main class="container mx-auto">
+            <video autoplay="" loop="" playsinline="" disablepictureinpicture=""
+                class="fixed -z-20 top-0 left-0 right-0 bottom-0 opacity-40 object-cover w-full h-full">
+                <source src="./assets/images/hcx-bg-video.a95e43f3.mp4" type="video/mp4">
+            </video>
+            <div class="  swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                <div class=" " style="transform: translate3d(0px, 0px, 0px);">
+                    <div class=" -slide swiper-slide-active">
+                        <section id="home"
+                            class="md:px-10 px-8 py-5 md:py-0  flex md:flex-row flex-col items-center  justify-between gap-5 mb-10">
+                            <div class="lg:w-1/2 w-full">
+                                <div class="lg:hidden block my-5"><img src="./assets/images/ncro1.2bee620a.png"
+                                        alt="Laptop" class="w-full mx-auto  py-5">
+                                </div>
+                                <h1
+                                    class="text-slate-50 md:text-5xl lg:text-6xl text-4xl font-bold mb-2 tracking-tight ">
+                                    <span>Bridging the
+                                        Gap between Blockchain &amp; </span><span class="green">Gaming</span>
+                                </h1>
+                                <p class="text-slate-50 text-[1rem] leading-normal font-semibold">NFTS and
+                                    blockchains are the future of gaming, we at HyperChainX are providing a tailored NFT
+                                    marketplace and gaming platform. Built by gamers, for the gamers!</p>
+                                <div class="flex flex-col my-5 lg:w-4/5 w-full" style="opacity: 1; transform: none;">
+                                    <div
+                                        class="lg:space-x-5 flex lg:flex-row flex-col space-x-0 lg:space-y-0 space-y-5 ">
+                                        <a href="https://pancakeswap.finance/swap?inputCurrency=0xEE5b03b769Ca6c690D140CafB52fC8de3f38FC28"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="btn-home-green btn-up text-center capitalize">Buy Now</a>
+                                    </div>
+                                    <div class="my-5"><button
+                                            class="btn-home-transparent btn-up-transparent capitalize">View
+                                            Contract</button></div>
+                                </div>
+                                <ul class=" flex items-center lg:w-4/5 w-full justify-between px-2 "
+                                    style="opacity: 1; transform: none;">
+                                    <li><a href="https://t.me/hyperchainx" target="_blank"><svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 496 512"
+                                                class="icon-social" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="https://twitter.com/hyperchainx" target="_blank"><svg
+                                                stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class="icon-social" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="https://discord.gg/PMGPuAa77V" target="_blank"><svg
+                                                stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 640 512" class="icon-social" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="https://twitch.tv/hyperchainx" target="_blank"><svg
+                                                stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class="icon-social" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M391.17,103.47H352.54v109.7h38.63ZM285,103H246.37V212.75H285ZM120.83,0,24.31,91.42V420.58H140.14V512l96.53-91.42h77.25L487.69,256V0ZM449.07,237.75l-77.22,73.12H294.61l-67.6,64v-64H140.14V36.58H449.07Z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="https://www.instagram.com/hyperchainx/" target="_blank"><svg
+                                                stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 448 512" class="icon-social" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="https://www.youtube.com/channel/UC36IG8g73fMiB0Dd77rCC4Q"
+                                            target="_blank"><svg stroke="currentColor" fill="currentColor"
+                                                stroke-width="0" viewBox="0 0 576 512" class="icon-social" height="1em"
+                                                width="1em" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="https://www.reddit.com/r/Hyperchainx/" target="_blank"><svg
+                                                stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 512 512" class="icon-social" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z">
+                                                </path>
+                                            </svg></a></li>
+                                    <li><a href="https://medium.com/@Hyperchainx" target="_blank"><svg
+                                                stroke="currentColor" fill="currentColor" stroke-width="0"
+                                                viewBox="0 0 448 512" class="icon-social" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M0 32v448h448V32H0zm372.2 106.1l-24 23c-2.1 1.6-3.1 4.2-2.7 6.7v169.3c-.4 2.6.6 5.2 2.7 6.7l23.5 23v5.1h-118V367l24.3-23.6c2.4-2.4 2.4-3.1 2.4-6.7V199.8l-67.6 171.6h-9.1L125 199.8v115c-.7 4.8 1 9.7 4.4 13.2l31.6 38.3v5.1H71.2v-5.1l31.6-38.3c3.4-3.5 4.9-8.4 4.1-13.2v-133c.4-3.7-1-7.3-3.8-9.8L75 138.1V133h87.3l67.4 148L289 133.1h83.2v5z">
+                                                </path>
+                                            </svg></a></li>
+                                </ul>
+                            </div>
+                            <div class="relative md:w-1/2 w-full ml-auto lg:block hidden  "
+                                style="background-size: cover; height: 700px; width: 670px;"><img
+                                    src="./assets/images/ncro1.2bee620a.png" alt="Laptop Gaming Hyperchain X"
+                                    class="w-full absolute top-20 right-0" style="opacity: 1; transform: none;"></div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="md:px-10 px-8 py-5 md:py-0 gap-5 mb-10" id="partners">
+                <h1 class="text-slate-50 text-center md:text-5xl lg:text-5xl text-4xl font-bold mb-8 tracking-tight"
+                    style="opacity: 1; transform: none;">As Seen On</h1>
+                <div class="swiper swiper-initialized swiper-horizontal swiper-pointer-events">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="8"
+                            style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full">
+                                <div><img src="./assets/images/coinspeaker.ff7831b8.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="9"
+                            style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full">
+                                <div><img src="./assets/images/zycrypto.6a15027f.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="10"
+                            style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full">
+                                <div><img src="./assets/images/advfn.c68f7dd1.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="11"
+                            style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full">
+                                <div><img src="./assets/images/morningstar.467a11a7.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="12"
+                            style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full">
+                                <div><img src="./assets/images/iqstock.dff7e0ac.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0"
+                            style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full">
+                                <div><img src="./assets/images/benzinga-seeklogo.33c2f7ae.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1"
+                            style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full" style="opacity: 1; transform: none;">
+                                <div style="padding-right: 15px;"><img src="./assets/images/marketwatch.28a62930.png"
+                                        alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2"
+                            style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full" style="opacity: 1; transform: none;">
+                                <div><img src="./assets/images/yahoo.644f2c31.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index="3" style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full" style="opacity: 1; transform: none;">
+                                <div><img src="./assets/images/investing.7c8c96de.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index="4" style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full" style="opacity: 1; transform: none;">
+                                <div><img src="./assets/images/bloomberg.ac4ef998.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index="5" style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full" style="opacity: 1; transform: none;">
+                                <div><img src="./assets/images/digital.869256c8.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index="6" style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full">
+                                <div><img src="./assets/images/coingape.ea525f4c.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index="7" style="width: 200px; margin-right: 50px;">
+                            <div class="flex flex-col my-5 w-full">
+                                <div><img src="./assets/images/tech.3697e1fa.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <section id="nft" class="relative">
+                <div class="slick-slider">
+                    <div class="slide-1">
+                        <section id="home" class="lg:p-10 p-8 my-10 flex lg:flex-row flex-col items-center">
+                            <div class="lg:w-1/2 w-full">
+                                <div class="lg:hidden block my-5"><img src="./assets/images/ncroo3.02cdbf2a.png"
+                                        alt="Laptop" class="w-full mx-auto  py-5">
+                                </div>
+                                <h1 class="text-slate-50 md:text-5xl lg:text-7xl text-4xl font-bold  mb-2 tracking-tight"
+                                    style="opacity: 1; transform: none;">Dedicated NFT Marketplace<div><button
+                                            class="text-slate-50 flex items-center space-x-5"><svg stroke="currentColor"
+                                                fill="currentColor" stroke-width="0" viewBox="0 0 448 512"
+                                                class="font-small  my-5" height="1em" width="1em"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z">
+                                                </path>
+                                            </svg><span class="font-small">Play Video</span></button></div>
+                                </h1>
+                                <p class="text-slate-50 text-xl leading-normal">In the rising
+                                    crypto gaming industry there is a need for a fully dedicated NFT marketplace that is
+                                    focussing on the culture, history and its future! We at HyperChainX know what our
+                                    targeted audience is and we follow the trends. Thats why we are the best marketplace
+                                    for creators and collectors in the gaming niche. We have all the ingredients that
+                                    the game needs!</p>
+                                <div class="flex flex-col my-5 lg:w-4/5 w-full">
+                                    <div class="my-5"></div>
+                                </div>
+                                <ul class=" flex items-center lg:w-4/5 w-full justify-between px-2 "></ul>
+                            </div>
+                            <div class="relative md:w-1/2 w-full ml-auto lg:block hidden  "
+                                style="height: 700px; width: 670px;"><img src="./assets/images/ncro.d80c9283.png"
+                                    alt="Laptop Gaming Hyperchain X" class="w-3/4 absolute top-40 right-20 slider-img"
+                                    style="opacity: 1; transform: none;"></div>
+                        </section>
+                    </div>
+
+                    <div class="slide-2">
+                        <section id="home" class="lg:p-10 p-8 my-10 flex lg:flex-row flex-col items-center">
+                            <div class="lg:w-1/2 w-full">
+                                <div class="lg:hidden block my-5"><img src="./assets/images/box.dc09b482.png"
+                                        alt="Laptop" class="w-full mx-auto py-5"></div>
+                                <h1 class="text-slate-50 md:text-5xl lg:text-7xl text-4xl font-bold  mb-2 tracking-tight"
+                                    style="opacity: 1; transform: none;">Next-Gen NFT Launchpad<div></div>
+                                </h1>
+                                <p class="text-slate-50 text-xl leading-normal" style="opacity: 1; transform: none;">The
+                                    launchpad is designed to give NFT collection creators all the opportunities to
+                                    create a successful launch. We have it all; custom mystery boxes, whitelisting
+                                    options, free claims, NFT contract creation support and an affiliate marketing
+                                    program that will boost the sales.</p>
+                                <div class="flex flex-col my-5 lg:w-4/5 w-full">
+                                    <div class="my-5"></div>
+                                </div>
+                                <ul class=" flex items-center lg:w-4/5 w-full justify-between px-2 "></ul>
+                            </div>
+                            <div class="relative md:w-1/2 w-full ml-auto lg:block hidden  "
+                                style="height: 700px; width: 670px;"><img src="./assets/images/box.dc09b482.png"
+                                    alt="Hyperchain X Mystery Box" class="absolute top-0 right-20 p-[90px]"
+                                    style="opacity: 1; transform: none;"></div>
+                        </section>
+                    </div>
+
+                    <div class="slide-3">
+                        <section id="home" class="lg:p-10 p-8 my-10 flex lg:flex-row flex-col items-center">
+                            <div class="lg:w-1/2 w-full">
+                                <div class="lg:hidden block my-5"><img src="./assets/images/nft.8bf2ca74.png"
+                                        alt="Hypertron NFT" class="w-full mx-auto  py-5">
+                                </div>
+                                <h1 class="text-slate-50 md:text-5xl lg:text-7xl text-4xl font-bold  mb-2 tracking-tight"
+                                    style="opacity: 1; transform: none;">"Hypertrons" NFTS That Give Equity</h1>
+                                <p class="text-slate-50 text-xl leading-normal">HyperchainX
+                                    unveils "Hypertrons" NFTs - powerful robots from Cryptonus, available in Q1 2023 on
+                                    our launchpad in 7 tiers from iconic to common. Not only do these NFTs symbolize
+                                    bravery and determination of the Hypertrons in protecting the Blockchain Milky Way,
+                                    but also offers a chance for the Cryptonian community to earn equity through
+                                    staking. Join the legendary story, own a Hypertrons NFT and gain equity.</p>
+                                <div class="flex flex-col my-5 lg:w-4/5 w-full">
+                                    <div class="my-5"></div>
+                                </div>
+                                <ul class=" flex items-center lg:w-4/5 w-full justify-between px-2 "></ul>
+                            </div>
+                            <div class="relative md:w-1/2 w-full ml-auto lg:block hidden  "
+                                style="height: 700px; width: 670px;"><img src="./assets/images/nft.8bf2ca74.png"
+                                    alt="Hypertron NFT" class="w-3/4 absolute top-40 right-20"
+                                    style="opacity: 1; transform: none;"></div>
+                        </section>
+                    </div>
+
+
+                </div>
+                <div class="flex justify-center gap-3">
+                    <span class="slide-pagination-bullet slide-pagination-bullet-active"></span>
+                    <span class="slide-pagination-bullet"></span>
+                    <span class="slide-pagination-bullet "></span>
+                </div>
+            </section>
+
+
+            <section id="features" class="p-10 my-10 flex flex-col">
+                <div class="self-center flex flex-col items-center mb-5" style="opacity: 1; transform: none;"><span
+                        class="subtitle-section">The Core</span>
+                    <h3 class="title-section">Features</h3>
+                </div>
+                <div class="list-features my-20 " style="opacity: 1; transform: none;">
+                    <div class="flex flex-col items-center feature-items">
+                        <div class="inline-flex p-8 rotate-45 border-8 feature-icon-1 item"><img
+                                src="./assets/images/market.5f1d5947.svg" alt="Market Icon" class="-rotate-45 w-16">
+                        </div>
+                        <div class="mt-12">
+                            <h4 class="text-slate-50 font-bold text-2xl text-center mb-4">NFTs</h4>
+                            <p class="text-hyper-light font-semibold text text-center ">Buy mystery boxes from our NFT
+                                Launchpad or trade hot NFT items on the marketplace. We will collaborate with gaming
+                                studios, eSporters, gamer girls and historical events connected to gaming hosting their
+                                NFT collections.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center feature-items">
+                        <div class="inline-flex p-8 rotate-45 border-8 feature-icon-2 item"><img
+                                src="./assets/images/wallet.97276a70.svg" alt="Wallet Icon" class="-rotate-45 w-16">
+                        </div>
+                        <div class="mt-12 ">
+                            <h4 class="text-slate-50 font-bold text-2xl text-center mb-4">Play to Earn</h4>
+                            <p class="text-hyper-light font-semibold text text-center ">Earn $HYPER while participating
+                                at our online buy-in tournaments with major prize pools, 1v1 high stake battles or by
+                                playing our crypto games.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center feature-items">
+                        <div class="inline-flex p-8 rotate-45 border-8  feature-icon-3 item"><img
+                                src="./assets/images/play.12c2ea88.svg" alt="Play Icon" class="-rotate-45 w-16"></div>
+                        <div class="mt-12">
+                            <h4 class="text-slate-50 font-bold text-2xl text-center mb-4">Game Store</h4>
+                            <p class="text-hyper-light font-semibold text text-center ">Users can navigate trough our
+                                game store to find the hottest play to earn crypto games. Some of the mini games will be
+                                developed by HYPERCHAINX but others will be coming from gaming studios we partnered up
+                                with.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-center feature-items">
+                        <div class="inline-flex p-8 rotate-45 border-8 feature-icon-4 item "><img
+                                src="./assets/images/streaming.03e77a22.svg" alt="Streaming Icon"
+                                class="-rotate-45 w-16"></div>
+                        <div class="mt-12 ">
+                            <h4 class="text-slate-50 font-bold text-2xl text-center mb-4">Live Streams</h4>
+                            <p class="text-hyper-light font-semibold text text-center ">Stream or watch any game on our
+                                app. Streamers will also be able to monetize their content and receive donations with
+                                $HYPER.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-center mt-10"><a href="#" target="_blank"
+                        rel="noopener noreferrer" class="btn-section">View Whitepaper</a></div>
+            </section>
+
+
+            <section id="game" class="flex lg:flex-row justify-between lg:p-10 p-8 my-20  flex-col gap-8 items-center">
+                <div class="lg:w-1/3 w-full"><img src="./assets/images/iphone.56ed557a.png" alt="Iphone image"
+                        class="bg-cover w-3/4 mx-auto rounded z-10" style="opacity: 1; transform: none;"></div>
+                <div class="lg:w-1/2 w-full z-0" style="opacity: 1; transform: none;"><span
+                        class="text-xl uppercase font-bold text-hyper-green">Gaming Platform</span>
+                    <h4 class="text-5xl font-bold text-slate-50 tracking-tight mt-4 mb-8">The First all-in-one Gaming
+                        Platform!</h4>
+                    <p class="text-[16px]">HyperChain X provides a platform tailored for the gaming industry, from a NFT
+                        marketplace to gamers battling each other to win crypto and more.</p>
+                    <p class="text-[16px] my-4">The goal is to create a crypto gaming platform with an all-in-one
+                        application consisting of elements like: buy-in tournaments, 1 vs 1 high stake battles, league
+                        creation options for esport teams, live streams and an NFT marketplace/Launchpad that is unseen
+                        in this space. We see that there is a need for a dedicated gaming platform where gamers can feel
+                        at home, and we at HyperChain X are fulfilling this dream. We will also be creating our own
+                        games for android/iOS with in-game NFTS and gambling features. All purchases on our platform
+                        will be compatible with the <a class="text-hyper-green" href="#">$HYPER</a>
+                        token.</p>
+                </div>
+            </section>
+
+
+            <section class="my-20 py-10 flex flex-col items-center" style="opacity: 1; transform: none;"><span
+                    class="text-hyper-green font-bold text-xl tracking-tight uppercase">New Feature</span>
+                <h1 class="text-5xl font-bold text-slate-50 tracking-tight mt-4 mb-8 text-center">Digital art Museum
+                </h1>
+                <p class="text-slate-50 text-[16px] leading-normal w-3/4 text-center py-10">Own a piece of gaming
+                    history!
+                    From tech legends who made the gaming industry possible to iconic games and characters that made
+                    their mark forever. HyperchainX is the first NFT marketplace in gaming that has a digital art museum
+                    and auction house. We pay homage to the legends by engraving their history into the blockchain with
+                    beautiful artwork to make them truly unforgettable.</p>
+            </section>
+
+            <section class="my-20 lg:p-10 p-8 flex flex-col">
+                <div class="flex lg:flex-row flex-col gap-8 items-center">
+                    <div class="lg:w-1/2 w-full flex justify-center"><img src="./assets/images/jugi.a0eb3e01.jpg"
+                            alt="Derek Tran" class="bg-cover rounded z-10 object-contain lg:h-[700px]"></div>
+                    <div class="lg:w-1/2 w-full z-0" style="opacity: 1; transform: none;"><span
+                            class="text-xl font-bold uppercase text-hyper-green">Latest News</span>
+                        <h4 class="text-5xl font-bold text-slate-50 tracking-tight my-4">The Untold Story of a Tech
+                            Legend</h4>
+                        <p class="text-[16px] leading-relaxed">We are proud and honored to announce that we have closed
+                            a
+                            deal to create a limited NFT collection of “Jugi Tandon’’ the inventor of the “Double sided
+                            floppy drive” in the 80”s. Tandon was #1 in the disk-drive industry, and his company was
+                            named Forbes magazine’s “Up and Comer of the Year”. “Jugi”, at age 41, was on the Forbes
+                            list of the 400 richest Americans. With this wealth, he built a 30-room home on 20 acres in
+                            Chatsworth. He has played a significant role in the digital revolution. The technology he
+                            developed laid the foundation for where we are today. The cloud, NFTs, blockchain, an
+                            evolution of the solution that Jugi was solving for storage capabilities to make computing
+                            accessible.<span class="text-hyper-green mx-1"></span>, <a href="https://www.inphantry.com/"
+                                target="_blank" rel="noopener noreferrer" class="text-hyper-green mx-1"></a></p>
+                        <p class="text-[16px] leading-relaxed my-4">Big names like Steve Jobs and Bill Gates, Jugi was
+                            working and competing with them all and he was part of the success of IBM being their sole
+                            supplier. His story is legendary, coming to America with $28 dollars to build one of the
+                            biggest companies in the world!</p>
+                        <p class="text-hyper-light font-semibold leading-relaxed"><span
+                                class="font-semibold text-hyper-green mx-1"><a href="#">Read
+                                    more</a></span></p>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="lg:p-10 p-8 my-10 flex flex-col ">
+                <div class=" flex flex-col items-center " style="opacity: 1; transform: none;"><span
+                        class="font-bold text-hyper-green text-2xl tracking-tight">Security</span>
+                    <h3 class="font-bold text-slate-50 md:text-6xl text-4xl tracking-tight">Safe and Secure</h3>
+                </div>
+                <div class="my-10"><img src="./assets/images/shield.4ec03814.svg" alt="Shield"
+                        class="lg:w-5/12 w-3/5 h-auto mx-auto" style="opacity: 1; transform: none;"></div>
+                <div class="flex flex-col items-center md:w-1/2 w-full mx-auto " style="opacity: 1; transform: none;">
+                    <h4 class="font-bold text-slate-50 lg:text-2xl text-xl tracking-tight text-center">100% AUDITED,
+                        KYC'D AND SKYNET CERTIFIED BY CERTIK</h4>
+                    <p class="text-hyper-light font-medium text-center my-5">Our top priority is to ensure the safety
+                        and security of your investment. That's why we have partnered with CERTIK, one of the most
+                        reputable audit companies in the entire crypto industry.</p>
+                    <p class="text-hyper-light font-medium text-center">By undergoing an extensive audit, as well as
+                        adhering to KYC protocols and utilizing Skynet, we can confidently assure our clients that our
+                        project and contract are professionally crafted, and 100% secure.</p><a href="#" target="_blank"
+                        rel="noopener noreferrer" class="btn-section mt-10">View Audit</a>
+                </div>
+            </section>
+
+
+            <section id="tokenomics" class="lg:p-10 p-8 my-20  flex flex-col items-center">
+                <div class="flex flex-col items-center">
+                    <div class="flex flex-col items-center"><span class="subtitle-section">Hyperchain X</span>
+                        <h4 class="title-section">Tokenomics</h4>
+                    </div>
+                    <div class=" space-y-4 mt-4 lg:w-3/4 w-full">
+                        <p class="text-hyper-light font-medium leading-relaxed text-center"><span
+                                class="text-hyper-green mr-1">Tokenomics</span>are a big deal when launching a
+                            project.<span class="text-hyper-green mx-1">Marketing</span>and<span
+                                class="text-hyper-green mx-1">liquidity</span>play an important role in the growth of a
+                            token. Our fees will make sure that this part is taken care of with every transaction that
+                            is made on the blockchain. This will ensure that our project gets the funding it needs to
+                            keep pushing it to higher heights.</p>
+                        <p class="text-hyper-light font-medium text-center">$HYPER has a<span
+                                class="text-hyper-green mx-1">standard transaction fee</span>of 10%</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="p-10 my-20 flex flex-col">
+                <div style="opacity: 1; transform: none;">
+                    <div class="flex flex-col items-center">
+                        <h4 class="title-section3">Transaction Fee</h4><br>
+                        <h4 class="title-section2 text-hyper-green">10% Buy/Sell</h4><br><br>
+                    </div>
+                    <div class="text-hyper-light font-medium leading-relaxed my-5 flex flex-col items-center ">
+                        <p><span class="text-hyper-green mr-1">Focused on growth:</span>Our transaction fees are
+                            designed to sustain the project</p>
+                        <p>To incentivize our long term holders to "HODL" $HYPER, the following fees will make sure that
+                            the project will stay substainable.</p>
+                    </div>
+                </div>
+                <div
+                    class="flex lg:flex-row flex-col  lg:items-center items-start justify-evenly lg:w-3/4 w-full mx-auto my-5 lg:space-y-0 space-y-5">
+                    <div class="flex items-center"><span
+                            class="text-2xl font-bold tracking-tight text-hyper-green">5.0%</span>
+                        <div class="flex flex-col ml-5"><span
+                                class="text-gray-400 font-bold uppercase text-sm">Marketing</span><span
+                                class="text-slate-50 font-bold uppercase text-xl">Fee</span></div>
+                    </div>
+                    <div class="flex items-center"><span
+                            class="text-2xl font-bold tracking-tight text-hyper-green">4.9%</span>
+                        <div class="flex flex-col ml-5"><span
+                                class="text-gray-400 font-bold uppercase text-sm">Buyback</span><span
+                                class="text-slate-50 font-bold uppercase text-xl">Fee</span></div>
+                    </div>
+                    <div class="flex items-center"><span
+                            class="text-2xl font-bold tracking-tight text-hyper-green">0.1%</span>
+                        <div class="flex flex-col ml-5"><span
+                                class="text-gray-400 font-bold uppercase text-sm">Burn</span><span
+                                class="text-slate-50 font-bold uppercase text-xl">Fee</span></div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="roadmap" class="lg:p-10 p-8 my-20">
+                <div class="flex flex-col items-center justify-center" style="opacity: 1; transform: none;"><span
+                        class="subtitle-section">Road to glory</span>
+                    <h3 class="title-section">Roadmap</h3>
+                </div>
+                <div class="list-roadmap my-10" style="opacity: 1; transform: none;">
+                    <div class="border-2 border-hyper-green-100 rounded-3xl  p-10">
+                        <h5 class="font-bold text-lg text-slate-50">Phase 1</h5>
+                        <ul class="text-hyper-light my-2 space-y-1 font-medium">
+                            <li class="flex items-start "><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2">UI Design NFT Marketplace</li>
+                            <li class="flex items-start "><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2">NFT Marketplace Development</li>
+                            <li class="flex items-start "><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2">Inpantry Assigned for First Phase
+                                Gaming-Platform</li>
+                            <li class="flex items-start "><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2">Press Release of NFT Presale with Jugi Tandon
+                            </li>
+                            <li class="flex items-start "><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2">Hypertron NFT Design Presentation</li>
+                            <li class="flex items-start "><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2">NFT Launchpad Development</li>
+                            <li class="flex items-start "><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2">Mystery Boxes Creation</li>
+                            <li class="flex items-start "><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2">Affiliate Program Development</li>
+                        </ul>
+                    </div>
+                    <div class="border-2 border-hyper-green-100 rounded-3xl  p-10">
+                        <h5 class="font-bold text-lg text-slate-50">Phase 2</h5>
+                        <ul class="text-hyper-light my-2 space-y-1 font-medium">
+                            <li class="flex items-start"><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2"><span> Research and Analytics</span></li>
+                            <li class="flex items-start"><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2"><span> Telegram-Groups Marketing</span></li>
+                            <li class="flex items-start"><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2"><span> KYC and Audit</span></li>
+                            <li class="flex items-start"><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2"><span> Pinksale SAFU Contract</span></li>
+                            <li class="flex items-start"><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2"><span> Pinksale Fairlaunch</span></li>
+                            <li class="flex items-start"><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2"><span> Twitter Influencers Marketing</span></li>
+                            <li class="flex items-start"><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2"><span> Youtubers Marketing</span></li>
+                            <li class="flex items-start"><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2"><span> NFT Marketplace/Launchpad TESTING</span>
+                            </li>
+                            <li class="flex items-start"><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2"><span> Pancakeswap Launch</span></li>
+                        </ul>
+                    </div>
+                    <div class="border-2 border-hyper-green-100 rounded-3xl  p-10">
+                        <h5 class="font-bold text-lg text-slate-50">Phase 3</h5>
+                        <ul class="text-hyper-light my-2 space-y-1 font-medium">
+                            <li class="flex items-start"><img src="./assets/images/check.f17910f1.svg"
+                                    alt="Checked Icon" class="w-5 mr-2">Coinmarketcap and Coingecko Listing</li>
+                            <li class="flex items-start">
+                                <div
+                                    class="w-5 h-5 flex-none mr-2 rounded-full border-2 border-hyper-green road-pending">
+                                </div>NFT Marketplace/Launchpad LAUNCH
+                            </li>
+                            <li class="flex items-start">
+                                <div
+                                    class="w-5 h-5 flex-none mr-2 rounded-full border-2 border-hyper-green road-pending">
+                                </div>Hypertron Collection Presale
+                            </li>
+                            <li class="flex items-start">
+                                <div
+                                    class="w-5 h-5 flex-none mr-2 rounded-full border-2 border-hyper-green road-pending">
+                                </div>Whitelist Competition Event
+                            </li>
+                            <li class="flex items-start">
+                                <div
+                                    class="w-5 h-5 flex-none mr-2 rounded-full border-2 border-hyper-green road-pending">
+                                </div>CEX Listing Tier 2 &amp; 1
+                            </li>
+                            <li class="flex items-start">
+                                <div
+                                    class="w-5 h-5 flex-none mr-2 rounded-full border-2 border-hyper-green road-pending">
+                                </div>Netflix Documentary Pilot
+                            </li>
+                            <li class="flex items-start">
+                                <div
+                                    class="w-5 h-5 flex-none mr-2 rounded-full border-2 border-hyper-green road-pending">
+                                </div>Equity Staking (Hypertron Collection)
+                            </li>
+                            <li class="flex items-start">
+                                <div
+                                    class="w-5 h-5 flex-none mr-2 rounded-full border-2 border-hyper-green road-pending">
+                                </div>Jugi Tandon NFT Presale
+                            </li>
+                            <li class="flex items-start">
+                                <div
+                                    class="w-5 h-5 flex-none mr-2 rounded-full border-2 border-hyper-green road-pending">
+                                </div>NYC Times Square Billboard (Jugi Tandon)
+                            </li>
+                            <li class="flex items-start">
+                                <div
+                                    class="w-5 h-5 flex-none mr-2 rounded-full border-2 border-hyper-green road-pending">
+                                </div>Gaming Partnerships
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="team" class="lg:p-10 p-8 my-20">
+                <div class="flex lg:flex-row flex-col items-center">
+                    <div class="flex lg:flex-row flex-col  space-x-5 lg:w-1/2 w-full items-center lg:mb-0 mb-10"
+                        style="opacity: 1; transform: none;">
+                        <div class="lg:block flex lg:mb-0 mb-5">
+                            <!-- First Button -->
+                            <button id="button1" class="rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" aria-hidden="true" id="icon1"
+                                    class="w-7 text-hyper-green info-pulse">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                                    </path>
+                                </svg>
+                            </button>
+
+                            <div
+                                class="text-hyper-light flex lg:flex-col flex-row lg:space-x-0 space-x-2 px-2 lg:px-0 items-center text-xs">
+                                <span>•</span><span>•</span><span>•</span>
+                            </div>
+
+                            <!-- Second Button -->
+                            <button id="button2">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor" aria-hidden="true" id="icon2" class="w-7 text-gray-500">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <!-- Content for Button 1 -->
+                        <div style="opacity: 1;" class="button-1-content">
+                            <span class="subtitle-section">Hyperchain X</span>
+                            <h3 class="title-section text-6xl">About Us</h3>
+                            <p class="text-hyper-light mt-5">HyperChain X started on the 2nd of April, 2021 by the
+                                co-founders Joshua Breurs (Josh Quantum) &amp; Boy Dennis Hilling (Ninja Krypto). The
+                                idea was to create a community driven gaming token with a long term future on the
+                                blockchain by developing an innovative platform where gaming meets crypto.</p>
+                        </div>
+
+                        <!-- Content for Button 2 -->
+                        <div style="opacity: 0;" class="button-2-content" hidden>
+                            <span class="subtitle-section">Hyperchain X</span>
+                            <h3 class="title-section text-6xl">Our <br> team</h3>
+                            <p class="text-hyper-light mt-5">#TEAMHYPER is a dedicated team that has a clear
+                                understanding of the gaming culture and its future in crypto. Our mission is simple:
+                                connecting gamers to the blockchain. With our knowledge of crypto, entertainment, design
+                                and tech we will take gaming to the next level. We are always on the lookout for a way
+                                to innovate, either through improving a process or by uncovering a new opportunity</p>
+                        </div>
+                    </div>
+                    <div class="flex lg:flex-row flex-col-reverse items-center " style="opacity: 1; transform: none;">
+                        <div class="flex flex-col items-center "><span class="subtitle-section text-lg">Co-Founder /
+                                Media &amp; Entertainment</span>
+                            <div class="flex items-center">
+                                <h4 class="text-slate-50 font-bold lg:text-5xl text-4xl my-2 ">Ninja Krypto</h4>
+                                <div><svg width="1em" height="1em" viewBox="0 0 512 336"
+                                        xmlns="http://www.w3.org/2000/svg" class="w-16">
+                                        <g fill="none">
+                                            <path
+                                                d="M512.001 112.092H0V9.103A8.829 8.829 0 018.828.275h494.345a8.829 8.829 0 018.828 8.828v102.989z"
+                                                fill="#FF4B55"></path>
+                                            <path
+                                                d="M503.172 335.724H8.828A8.829 8.829 0 010 326.896V223.908h512v102.988a8.828 8.828 0 01-8.828 8.828z"
+                                                fill="#41479B"></path>
+                                            <path fill="#F5F5F5" d="M0 112.088h512V223.9H0z"></path>
+                                        </g>
+                                    </svg></div>
+                            </div><span class="text-hyper-light font-bold ">Boy Dennis Hilling</span>
+                            <div class="w-5 h-5 mt-2 flex items-center justify-center space-x-4"><a
+                                    href="https://www.linkedin.com/in/boydennishilling/" target="_blank"
+                                    rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" fill="currentColor"
+                                        class="hover:text-hyper-green text-hyper-light mt-2 transition-all ease-in-out duration-200"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z">
+                                        </path>
+                                    </svg></a><a href="https://www.twitter.com/deezzow" target="_blank"
+                                    rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" fill="currentColor"
+                                        class="hover:text-hyper-green text-hyper-light mt-2 transition-all ease-in-out duration-200"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z">
+                                        </path>
+                                    </svg></a><a href="https://www.instagram.com/deezzow" target="_blank"
+                                    rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" fill="currentColor"
+                                        class="hover:text-hyper-green text-hyper-light mt-2 transition-all ease-in-out duration-200"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                                        </path>
+                                    </svg></a></div><img src="./assets/images/Joshquantum.7a6c049a.png"
+                                class="lg:w-1/2 w-3/4 my-10 flex-1" alt="Ninja Krypto">
+                        </div>
+                        <div class="lg:w-1/3 w-4/5 mb-10 flex flex-col items-center ">
+                            <ul class=" space-y-0 flex flex-wrap items-center justify-center gap-2  lg:mb-0   ">
+                                <li class="team-icon grayscale-0 icon-team-pulse "><img
+                                        src="./assets/images/ninja.1ebc0f32.png" alt="Ninja" class="w-20"
+                                        style="object-fit: cover;"></li>
+                                <li class="team-icon grayscale "><img src="./assets/images/josh.a0a07ed2.png" alt="Josh"
+                                        class="w-20" style="object-fit: cover;"></li>
+                                <li class="team-icon grayscale "><img src="./assets/images/derek.b0c8fa98.png"
+                                        alt="Derek" class="w-20" style="object-fit: cover;"></li>
+                                <li class="team-icon grayscale "><img src="./assets/images/jonna.2b2e44d1.png"
+                                        alt="Jonna" class="w-20" style="object-fit: cover;"></li>
+                                <li class="team-icon grayscale "><img src="./assets/images/micky.eef65a0b.png"
+                                        alt="Micky" class="w-20" style="object-fit: cover;"></li>
+                                <li class="team-icon grayscale "><img src="./assets/images/danny.be19604b.png"
+                                        alt="Danny" class="w-20" style="object-fit: cover;"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="partners" class="p-10 my-10 flex flex-col">
+                <div class="self-center flex flex-col items-center mb-5" style="opacity: 1; transform: none;"><span
+                        class="subtitle-section">HYPERCHAIN X</span>
+                    <h3 class="title-section">Partners</h3>
+                </div>
+                <div class="list-partners" style="opacity: 1; transform: none;">
+                    <div class="flex flex-col items-center partner-items">
+                        <div class="mt-12"><a target="_blank" rel="noopener noreferrer" href="#">
+                                <div><img src="./assets/images/inphantry.78a933da.svg" alt=""></div>
+                            </a></div>
+                    </div>
+                    <div class="flex flex-col items-center partner-items">
+                        <div class="mt-12 "><a target="_blank" rel="noopener noreferrer" href="#">
+                                <div><img src="./assets/images/cmc.b67295bd.png" alt=""></div>
+                            </a></div>
+                    </div>
+                    <div class="flex flex-col items-center partner-items">
+                        <div class="mt-12 "><a target="_blank" rel="noopener noreferrer" href="#">
+                                <div><img src="./assets/images/certik.b7600cfc.svg" alt=""></div>
+                            </a></div>
+                    </div>
+                    <div class="flex flex-col items-center partner-items">
+                        <div class="mt-12 "><a target="_blank" rel="noopener noreferrer" href="#">
+                                <div><img src="./assets/images/download.png" alt=""></div>
+                            </a></div>
+                    </div>
+                    <div class="flex flex-col items-center partner-items">
+                        <div class="mt-12"><a target="_blank" rel="noopener noreferrer" href="#">
+                                <div><img src="./assets/images/coingecko.8ccdf808.png" alt=""></div>
+                            </a></div>
+                    </div>
+                    <div class="flex flex-col items-center partner-items">
+                        <div class="mt-12 "><a target="_blank" rel="noopener noreferrer" href="#">
+                                <div><img src="./assets/images/bitmart.a1efb400.svg" alt=""></div>
+                            </a></div>
+                    </div>
+                    <div class="flex flex-col items-center partner-items">
+                        <div class="mt-12 "><a target="_blank" rel="noopener noreferrer" href="#">
+                                <div><img src="./assets/images/bscscan.42ec72be.svg" alt=""></div>
+                            </a></div>
+                    </div>
+                    <div class="flex flex-col items-center partner-items">
+                        <div class="mt-12 "><a target="_blank" rel="noopener noreferrer" href="#">
+                                <div><img src="./assets/images/pancake.77141568.png" alt=""></div>
+                            </a></div>
+                    </div>
+                    <div class="flex flex-col items-center partner-items">
+                        <div class="mt-12 "><a target="_blank" rel="noopener noreferrer" href="#">
+                                <div><img src="./assets/images/astrox.f67d6c50.png" alt=""></div>
+                            </a></div>
+                    </div>
+                    <div class="flex flex-col items-center partner-items">
+                        <div class="mt-12 "><a target="_blank" rel="noopener noreferrer" href="#">
+                                <div><img src="./assets/images/tandon.c424c0ab.png" alt=""></div>
+                            </a></div>
+                    </div>
+                </div>
+            </section>
+
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="scrollTop"
+                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="height: 40px; display: flex;">
+                <path
+                    d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm143.6 28.9l72.4-75.5V392c0 13.3 10.7 24 24 24h16c13.3 0 24-10.7 24-24V209.4l72.4 75.5c9.3 9.7 24.8 9.9 34.3.4l10.9-11c9.4-9.4 9.4-24.6 0-33.9L273 107.7c-9.4-9.4-24.6-9.4-33.9 0L106.3 240.4c-9.4 9.4-9.4 24.6 0 33.9l10.9 11c9.6 9.5 25.1 9.3 34.4-.4z">
+                </path>
+            </svg>
+
+        </main>
+
+        <footer class="bg-hyper-dark lg:p-16 p-10">
+            <div class="flex lg:flex-row flex-col  gap-10 border-b border-hyper-dark-200 pb-10">
+                <div class="text-slate-50 lg:w-1/2 w-full">
+                    <h4 class="lg:text-5xl text-4xl uppercase font-bold tracking-tight mb-2">Hyperchain X</h4>
+                    <p>Hyperchain X is the first community-driven token in gaming. We are creating an online gaming
+                        ecosystem for gamers, connected to the blockchain, with a full social media experience.</p>
+                </div>
+                <div class="flex lg:flex-row flex-col lg:w-1/2 w-full justify-between space-y-5 lg:space-y-0">
+                    <div>
+                        <h4 class="text-slate-50 uppercase font-bold text-xl mb-5">Community</h4>
+                        <ul class="text-hyper-light font-medium space-y-1">
+                            <li><a href="#" target="_blank" rel="noopener noreferrer" class="footer-items">Telegram</a>
+                            </li>
+                            <li><a href="#" target="_blank" rel="noopener noreferrer" class="footer-items">Discord</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-slate-50 uppercase font-bold text-xl mb-5">Social</h4>
+                        <ul class="text-hyper-light font-medium space-y-1">
+                            <li><a href="#" target="_blank" rel="noopener noreferrer" class="footer-items">Twitter</a>
+                            </li>
+                            <li><a href="#" target="_blank" rel="noopener noreferrer" class="footer-items">Youtube</a>
+                            </li>
+                            <li><a href="#" target="_blank" rel="noopener noreferrer" class="footer-items">Instagram</a>
+                            </li>
+                            <li><a href="#" target="_blank" rel="noopener noreferrer" class="footer-items">Reddit</a>
+                            </li>
+                            <li><a href="#" target="_blank" rel="noopener noreferrer" class="footer-items">Twitch</a>
+                            </li>
+                            <li><a href="#" target="_blank" rel="noopener noreferrer" class="footer-items">Medium</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-slate-50 uppercase font-bold text-xl mb-5">Resources</h4>
+                        <ul class="text-hyper-light font-medium space-y-1">
+                            <li><a href="#" target="_blank" rel="noopener noreferrer" class="footer-items">Contract</a>
+                            </li>
+                            <li><a href="#" target="_blank" rel="noopener noreferrer"
+                                    class="footer-items">Whitepaper</a></li>
+                            <li><a href="#" target="_blank" rel="noopener noreferrer" class="footer-items">Live
+                                    Chart</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div><span class="text-slate-50 font-bold mt-4 inline-flex">Copyright © 2024 Hyperchain X. All Rights
+                    Reserved.</span></div>
+        </footer>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick JS -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Initialize the slick slider
+            var slider = $('.slick-slider').slick({
+                slidesToShow: 1,  // Show one slide at a time
+                slidesToScroll: 1,  // Scroll one slide at a time
+                dots: false,  // Disable default dots
+                arrows: false,  // Disable arrows
+                infinite: true,  // Infinite scroll
+                autoplay: true,  // Enable autoplay
+                autoplaySpeed: 3000,  // Set autoplay speed (3 seconds)
+            });
+
+            // Handle the custom dots
+            var $dots = $('.slide-pagination-bullet');
+            slider.on('beforeChange', function (event, slick, currentSlide, nextSlide) {
+                // Remove active class from all dots
+                $dots.removeClass('slide-pagination-bullet-active');
+                // Add active class to the current dot
+                $($dots[nextSlide]).addClass('slide-pagination-bullet-active');
+            });
+
+            // Handle custom dot clicks
+            $dots.on('click', function () {
+                var index = $dots.index(this);
+                slider.slick('slickGoTo', index); // Go to the corresponding slide
+            });
+        });
+    </script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            slidesPerView: 'auto',
+            spaceBetween: 50,
+            loop: true,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            speed: 5000,
+            freeMode: true,
+            freeModeMomentum: false
+        });
+    </script>
+    <script>
+        const hamburgerButton = document.querySelector('.hamburger-react');
+        const modal = document.querySelector('.modal');
+
+        // Toggle modal visibility and hamburger icon
+        hamburgerButton.addEventListener('click', () => {
+            // Toggle modal visibility
+            modal.classList.toggle('hidden');
+
+            // Prevent background scroll when modal is open
+            if (!modal.classList.contains('hidden')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = 'auto';
+            }
+
+            // Toggle hamburger icon to close icon
+            const bars = hamburgerButton.querySelectorAll('div');
+            if (modal.classList.contains('hidden')) {
+                bars[0].style.transform = 'none';
+                bars[0].style.top = '16px';
+
+                bars[1].style.opacity = '1';
+
+                bars[2].style.transform = 'none';
+                bars[2].style.top = '30px';
+            } else {
+                bars[0].style.transform = 'rotate(45deg)';
+                bars[0].style.top = '23px';
+
+                bars[1].style.opacity = '0';
+
+                bars[2].style.transform = 'rotate(-45deg)';
+                bars[2].style.top = '23px';
+            }
+        });
+
+    </script>
+    <script>
+        // Get buttons and content sections
+        const button1 = document.getElementById('button1');
+        const button2 = document.getElementById('button2');
+        const content1 = document.querySelector('.button-1-content');
+        const content2 = document.querySelector('.button-2-content');
+
+        // Show content for Button 1 and hide Button 2 content
+        button1.addEventListener('click', function () {
+            content1.style.opacity = '1';
+            content1.hidden = false;
+            content2.style.opacity = '0';
+            content2.hidden = true;
+
+            // Optionally change button color here if needed
+            button1.querySelector('svg').classList.add('text-hyper-green');
+            button1.querySelector('svg').classList.remove('text-gray-500');
+            button2.querySelector('svg').classList.add('text-gray-500');
+            button2.querySelector('svg').classList.remove('text-hyper-green');
+        });
+
+        // Show content for Button 2 and hide Button 1 content
+        button2.addEventListener('click', function () {
+            content2.style.opacity = '1';
+            content2.hidden = false;
+            content1.style.opacity = '0';
+            content1.hidden = true;
+
+            // Optionally change button color here if needed
+            button2.querySelector('svg').classList.add('text-hyper-green');
+            button2.querySelector('svg').classList.remove('text-gray-500');
+            button1.querySelector('svg').classList.add('text-gray-500');
+            button1.querySelector('svg').classList.remove('text-hyper-green');
+        });
+
+
+    </script>
+    <script>
+        const button = document.getElementById('rfs-btn');
+        const dropdown = document.querySelector('.ReactFlagsSelect-module_selectOptions__3LNBJ');
+
+        button.addEventListener('click', () => {
+            dropdown.classList.toggle('hidden'); // Toggle visibility
+        });
+
+
+    </script>
+    <script>
+        // Create cursor element
+        const cursor = document.querySelector('.app-cursor');
+
+        // Track mouse movement and update cursor position
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = `${e.pageX}px`;
+            cursor.style.top = `${e.pageY}px`;
+        });
+    </script>
+</body>
+
+</html>
