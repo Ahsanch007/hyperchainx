@@ -1,5 +1,6 @@
 body{
     background: #000;
+    font-family: 'Mulish', sans-serif;
     
 }
 html{
@@ -50,7 +51,9 @@ html{
     --tw-bg-opacity: 1;
     background-color: rgb(170 255 38 / var(--tw-bg-opacity));
 }
-
+.font-bolder{
+    font-weight: 800;
+}
 .nav-item {
     position: relative;
     display: block;
@@ -403,6 +406,10 @@ p {
 .grayscale {
     --tw-grayscale: grayscale(100%);
     filter: var(--tw-filter);
+}
+
+.activeee{
+    border-color: #aaff26;
 }
 
 
